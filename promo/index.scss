@@ -1,0 +1,166 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+  
+  }
+
+  .promo h1,a,h2{
+    color: white;
+
+  }
+
+
+  .cabecalhasso h1 {
+      color: rgb(0, 0, 0);
+  }
+  
+  .cabecalhasso {
+      display: flex;
+      flex-direction: row;
+      background-color: yellow;
+      padding: 15px;
+  }
+  
+  .cabecalhasso img {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(255, 255, 252);
+      border-radius: 50px;
+  }
+  
+  .cabecalhasso h1 {
+      padding-left: 390px;
+  }
+  
+  
+  .cabecalhasso h1 span {
+      position: relative;
+      left: 20px;
+  }
+  
+  .primeiro{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+  .primeiro h2{
+    color: white;
+  }
+
+
+  .sombra {
+      background-color: black;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+  }
+  
+  .sombra h1 span {
+      color: yellow;
+      font-size: 25px;
+  }
+  
+  .sombra h2 {
+      font-size: 19px;
+  }
+  
+  
+  .ffora img {
+      display: flex;
+      justify-content: center;
+      width: 140px;
+      height: 140px;
+  }
+  
+  .ffora:hover{
+      transform: scale(1.1);
+      transition: 0.6s;
+  }
+  
+  
+  .ffora img {
+      position: relative;
+      bottom: 59px;
+      right: 59px;
+  }
+  
+  
+  .ffora {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .fazer a{
+   padding: 15px;
+      background-color: yellow;
+      color: black;
+      border-radius: 10px;
+  
+  }
+  
+  .azin{
+  position: relative;
+  top: 30px;
+  padding-left: 45px;
+  
+  }
+  
+  .fazer a:hover{
+      background-color: black;
+      border: solid yellow 1px;
+      color: white;
+      transition: 0.7s;
+  }
+  
+  .teste h1{
+  font-size: 22px;
+  }
+
+
+  .segundo h1{
+    color: rgb(255, 255, 255);
+  }
+
+  .segundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+  }
+
+  .sombra {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .maezovsk div{
+        flex-direction: column;
+    }
+    
+   
+    .cabecalhasso {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .cabecalhasso h1 {
+      margin: 10px 0; 
+    }
+  
+    .promo {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .sombra {
+      width: 80%; 
+    }
+  }

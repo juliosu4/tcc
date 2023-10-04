@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  .secao01{
+    background-color: black;
+    height: 900px;
+  }
+  
+  .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: yellow;
+    padding: 15px;
+  
+  }
+  .cabecalho img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 150px;
+    
+}
+    .cabecalho h1{
+      color: black;
+    }
+
+
+
+  .corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .corpo input{
+    margin: 10px;
+    height: 50px;
+  }
+
+
+  .corpo {
+    text-align: center;
+    background-color: black;
+  }
+  
+  .corpo input{
+    height: 60px;
+    width: 600px;
+    border-radius: 15px;
+  }
+  
+  .corpo h2{
+    color: white;
+  }
+  
+
+    .entrar-invalido{
+        color: white;
+    }
+
+  .corpo h1{
+  
+    color: white;
+  }
+  
+  .corpo a{
+    color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   margin: 20px;
+  }
+  
+  .secao01 button{
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: yellow;
+    
+  }

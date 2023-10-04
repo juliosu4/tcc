@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+
+.cabecalho8 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+
+.cabecalho8 h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+
+.cabecalho8 img {
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+}
+
+.corpo0 {
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.corpo0 h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+
+
+.email:hover {
+    transition: 0.3s;
+    background-color: rgb(204, 204, 204);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+
+
+.info input {
+    outline: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 50vh;
+    border: none;
+}
+
+.info input,
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.info2 input {
+    outline: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 50vh;
+    border: none;
+
+}
+
+.info2 input,
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+
+}
+
+.info2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+
+.senha:hover {
+    transition: 0.3s;
+    background-color: rgb(204, 204, 204);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+
+
+
+
+
+.info3 input {
+    outline: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 50vh;
+    border: none;
+
+}
+
+.info3 input,
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+
+}
+
+.info3 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+
+.nome:hover {
+    transition: 0.3s;
+    background-color: rgb(204, 204, 204);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+
+
+
+
+.info4 input {
+    outline: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 50vh;
+    border: none;
+
+}
+
+.info4 input,
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+
+}
+
+.info4 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sobrenome:hover {
+    transition: 0.3s;
+    background-color: rgb(204, 204, 204);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+}
+
+
+.info7 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 0);
+    height: 60px;
+    width: 30%;
+    margin-bottom: 40px;
+    font-size: 15px;
+    
+}
+
+
+.info8 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(42, 127, 231);
+    height: 60px;
+    width: 30%;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.info8 img{
+    position: relative;
+    right: 70px;
+    height: 40px;
+    width: 40px;
+}
+
+.info9 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(102, 123, 148);
+    height: 60px;
+    width: 30%;
+    font-size: 17px;
+   
+}
+
+.info9 img{
+    position: relative;
+    right: 80px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.info7:hover{
+    transition: 0.3s;
+    background-color: rgb(177, 171, 171);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+    
+.info8:hover{
+    transition: 0.3s;
+    background-color: rgb(58, 117, 228);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
+
+.info9:hover{
+    transition: 0.3s;
+    background-color: rgb(113, 137, 202);
+    transform: scale3d(1.1s);
+    transition-delay: 0.1s;
+}
